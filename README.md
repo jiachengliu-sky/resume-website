@@ -1,6 +1,6 @@
 # Jiacheng Liu — Personal Resume Website
 
-[![Deploy to Cloudflare Pages](https://img.shields.io/badge/Deployed%20on-Cloudflare%20Pages-orange?logo=cloudflare)](https://2d52cdb0.resume-website-abx.pages.dev/)
+[![Deploy to Cloudflare Pages](https://img.shields.io/badge/Deployed%20on-Cloudflare%20Pages-orange?logo=cloudflare)](https://pages.cloudflare.com/)
 [![Made with HTML CSS JS](https://img.shields.io/badge/Built%20With-HTML%20%7C%20CSS%20%7C%20JS-blue)](#)
 [![Contact Me](https://img.shields.io/badge/Contact-jiachengliu.sky%40outlook.com-success)](mailto:jiachengliu.sky@outlook.com)
 
