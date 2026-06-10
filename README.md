@@ -4,13 +4,13 @@
 [![Made with HTML CSS JS](https://img.shields.io/badge/Built%20With-HTML%20%7C%20CSS%20%7C%20JS-blue)](#)
 [![Contact Me](https://img.shields.io/badge/Contact-jiachengliu.sky%40outlook.com-success)](mailto:jiachengliu.sky@outlook.com)
 
-This is my personal resume website, designed to showcase my professional experience, skills, and projects in the fields of investment advisory, asset management, and real estate finance. Built with HTML, CSS, and JavaScript, it is optimized for fast, responsive browsing and deployed via Cloudflare Pages.
+This is my personal resume website, designed to showcase my professional experience across portfolio management, capital markets underwriting and origination, real asset management, and debt financing. Built with HTML, CSS, and JavaScript, it is optimized for fast, responsive browsing and deployed via Cloudflare Pages.
 
 ## 🔗 Live Website
 👉 [Visit my website](https://2d52cdb0.resume-website-abx.pages.dev/)
 
 ## 📝 About
-I am an investment and asset management professional with hands-on experience in financial modeling, valuation, and real estate analysis. This site serves as a personal portfolio and resume, providing an overview of my expertise and ways to connect.
+I work across portfolio management, capital markets, real assets, and technical systems implementation. This site serves as a personal portfolio and resume, providing an overview of my experience in underwriting, origination, debt financing, asset management, portfolio performance metrics, and data-driven execution.
 
 ## 🛠 Tech Stack
 - **HTML5**: Semantic structure & content

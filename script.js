@@ -72,9 +72,9 @@ window.addEventListener('DOMContentLoaded', function() {
   const el = document.getElementById('typewriter');
   if (el) {
     new Typewriter(el, [
-      'Data-Driven Financial Analyst',
-      'Real Estate Enthusiast',
-      'Aspiring Strategist'
+      'Portfolio Manager',
+      'Capital Markets Underwriter',
+      'Real Estate Strategist'
     ], {
       typingSpeed: 80,
       deletingSpeed: 50,
@@ -85,4 +85,4 @@ window.addEventListener('DOMContentLoaded', function() {
       cursorBlink: true
     });
   }
-}); 
+});
