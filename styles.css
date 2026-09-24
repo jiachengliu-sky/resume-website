@@ -173,6 +173,7 @@ body {
    ===================== */
 .main-content {
   flex: 1;
+  min-width: 0;
   gap: 20px;
   display: flex;
   flex-direction: column;
@@ -320,7 +321,9 @@ footer {
 }
 .card-header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0.6rem;
   justify-content: space-between;
   /* margin-bottom: 0.5rem; */
 }
@@ -430,3 +433,35 @@ footer {
   }
 }
 
+
+.hero-specialty, .hero-location {
+  display: block;
+  margin-top: 0.75rem;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  color: var(--text-tertiary);
+}
+.hero-location { font-size: 1rem; }
+
+@media (max-width: 1100px) and (min-width: 901px) {
+  .sidebar-card { width: 350px; }
+}
+
+@media (max-width: 600px) {
+  .container { padding: 24px 20px; gap: 24px; }
+  .sidebar-card { width: 100%; min-width: 0; margin: 0; padding: 20px 16px; }
+  .hero-photo { max-width: 320px; }
+  .hero h1 { font-size: 2rem; }
+  .contact-card a { overflow-wrap: anywhere; }
+}
+
+/* Reserve the longest role's height so typing never shifts the content below. */
+.role-rotation { display: grid; }
+.role-sizer, .role-visible { grid-area: 1 / 1; }
+.role-sizer { visibility: hidden; }
+.typewriter-cursor { animation: blink-cursor 0.8s steps(1) infinite; }
+@keyframes blink-cursor { 50% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .typewriter-cursor { animation: none; visibility: hidden; }
+  html, body { scroll-behavior: auto; }
+}
