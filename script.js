@@ -1,7 +1,7 @@
 // Keep the full role readable when animation is disabled or JavaScript is unavailable.
 const role = document.getElementById('typewriter');
 const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
-const phrases = ['Data-Driven Analyst', 'Innovation Early Adopter', 'Strategist'];
+const phrases = ['Data-Driven Analyst', 'Innovation Early Adopter', 'Wealth Management Strategist'];
 let timer;
 
 function startTypewriter() {
